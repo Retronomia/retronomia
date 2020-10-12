@@ -7,35 +7,74 @@ html{
     min-height:100%;
 }
 .top{
-    background-color: #4ABDAC;
-    width:100%;
+    background-color: #E9EBE4;
+    max-width:100%;
     padding: 10em;
     padding-top: 7em;
     padding-bottom: 7em;
 }
 .top h1{
-    color:white;
+    color: #354A77;
     font-size: 4.5em;
     margin-bottom: .2em;
 }
 .top h2{
-    color:#fcff49;
+    color:#F96267;
     font-size:2em;
     margin-bottom:1em;
 }
 .top h3{
-    color:white;
+    color:#F96267;
 }
 .top h3 a{
     transition: .3s;
-    color:rgb(231, 250, 255);
+    color: #354A77;
     cursor: pointer;
     text-decoration:none;
-    border-bottom: .15em dotted white;
+    border-bottom: .15em dotted #F96267;
 }
 .top h3 a:hover{
-    color:rgb(191, 209, 214);
-    border-bottom: .15em dotted rgb(191, 209, 214);
+    color: #5a7fcf;
+    border-bottom: .15em dotted  #f7a7aa;
+}
+.sect{
+    background-color: #F96267;
+    padding: 1.5em;
+    padding-left: 6.5em;
+    color: white;
+    font-size: 1.5em;
+}
+.info{
+    background-color: #364B74;
+    color: white;
+    padding-left: 5em;
+    padding-top: 1em;
+    padding-bottom: 3em;
+}
+.info p{
+    float:left;
+    margin-top: 2em;
+    margin-right: 2em;
+}
+.info img{
+    height: 7em;
+    width: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.info a{
+    background-color: #f7a7aa;
+    padding: .2em;
+    cursor: pointer;
+    transition: .3s;
+}
+.info a:hover{
+    background-color: #ffc8ca;
+}
+.warning{
+    color:red;
+    padding-left: 9em;
+    background-color: #353a42;
 }
 .links{
     background-color:red;
