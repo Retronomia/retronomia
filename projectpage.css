@@ -1,0 +1,168 @@
+/* Landscape phones and down */
+@media (max-width: 530px) {
+    div.page{
+        margin-top: 80px;
+        width: 200px;
+    } 
+    div.page h1{
+        font-size: 28px;
+    }
+    div.page h2{
+        font-size: 20px;
+    }
+    div.page p{
+        font-size: 14px;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (min-width: 531px) and (max-width: 767px) {
+    div.page{
+        margin-top: 40px;
+        width: 450px;
+    }  
+    div.page h1{
+        font-size: 30px;
+    }
+    div.page h2{
+        font-size: 24px;
+    }
+    div.page p{
+        font-size: 16px;
+    }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1099px) {
+    div.page{
+        margin-top: 40px;
+        width: 600px;
+    } 
+    div.page h1{
+        font-size: 30px;
+    }
+    div.page h2{
+        font-size: 24px;
+    }
+    div.page p{
+        font-size: 16px;
+    }
+}
+
+/* Large desktop */
+@media (min-width: 1100px) {
+    div.page{
+        margin-top: 40px;
+        width: 1000px;
+    }  
+    div.page h1{
+        font-size: 30px;
+    }
+    div.page h2{
+        font-size: 24px;
+    }
+    div.page p{
+        font-size: 16px;
+    }
+}
+
+
+
+/*PAGE*/
+div.page{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    border-style: solid;
+    border-color: #354A77;
+    border-width: 5px;
+}
+
+div.page h1{
+    margin-bottom: 5px;
+}
+
+div.page h2{
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+div img {
+    margin-top: 15px;
+    width: 995px;
+    height: 150px;
+    border-style: solid;
+    border-color: #354A77;
+    border-width: 1px;
+    object-fit: cover;
+    
+}
+
+h4{
+    font-size: 13px;
+}
+.float-left{
+    float:left;
+}
+.float-center{
+    float:center;
+}
+.float-right{
+    float:right;
+}
+
+.small{
+    width: 300px;
+    height:fit-content;
+    text-align: center;
+    margin-bottom: 2px;
+}
+.small img{
+    width: 250px;
+    height: auto;
+}
+
+.med{
+    width: 500px;
+    height:fit-content;
+    text-align: center;
+    margin-bottom: 2px;
+}
+.med img{
+    width: 450px;
+    height: auto;
+}
+
+.large{
+    width: 700px;
+    height:fit-content;
+    text-align: center;
+    margin-bottom: 2px;
+}
+.large img{
+    width: 650px;
+    height: auto;
+}
+
+.code{
+    background-color: #1E1E1E;
+    font-family: 'Inconsolata', monospace;
+}
+.db{
+    color: #568CA1;
+}
+.b{
+    color: #7CDCF0;
+}
+.y{
+    color: #D7983C;
+}
+.r{
+    color: #CE9178;
+}
+.dg{
+    color: #6A8A35;
+}
+.g{
+    color: #B5CEA8;
+}
