@@ -12,12 +12,6 @@
         top: 20px;
         right: -20px;
     }
-    div.recent div.overlay h1{
-        font-size: 20px;
-    }
-    div.recent div.todo h1{
-        font-size: 30px;
-    }
     div.recent div.todo p{
         width: 250px;
     }
@@ -38,12 +32,6 @@
     div.recent div.overlay{
         top: 210px;
         right: -20px;
-    }
-    div.recent div.overlay h1{
-        font-size: 25px;
-    }
-    div.recent div.todo h1{
-        font-size: 30px;
     }
     div.recent div.todo p{
         width: 400px;
@@ -66,12 +54,6 @@
         top: 300px;
         right: -20px;
     }
-    div.recent div.overlay h1{
-        font-size: 30px;
-    }
-    div.recent div.todo h1{
-        font-size: 32px;
-    }
     div.recent div.todo p{
         width: 650px;
     }
@@ -92,12 +74,6 @@
     div.recent div.overlay{
         top: 300px;
         right: -20px;
-    }
-    div.recent div.overlay h1{
-        font-size: 30px;
-    }
-    div.recent div.todo h1{
-        font-size: 32px;
     }
     div.recent div.todo p{
         width: 900px;
@@ -121,7 +97,7 @@ div.recent div.img {
     border-color: #354A77;
     border-width: 5px;
     filter: brightness(50%);
-    background-image: url("projects/1-website/splash.png");
+    background-image: url("projects/1-website/images/splash.png");
     background-size: cover;
     overflow:hidden;
     z-index:-1;

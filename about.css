@@ -3,7 +3,7 @@
     div.about{
         padding-top: 40px;
         padding-bottom: 40px;
-        width: 200px;
+        width: 250px;
         padding-left: 10px;
         padding-right: 10px;
         flex-direction: column;
@@ -18,10 +18,9 @@
         margin-right: auto;
     }
     div.about p{
-        width: 200px;
+        width: 250px;
     }
     div.about h2{
-        font-size: 14px;
         text-align: center;
     }
 }
@@ -50,7 +49,6 @@
         width: 380px;
     }
     div.about h2{
-        font-size: 20px;
         text-align: center;
     }
 }
@@ -64,6 +62,7 @@
         padding-right: 40px;
         padding-bottom: 40px;
         width: 600px;
+        align-items: flex-start
     }
     div.about img{
         width: 200px;
@@ -72,9 +71,6 @@
     }
     div.about p{
         width: 400px;
-    }
-    div.about h2{
-        font-size: 24px;
     }
 }
 
@@ -87,6 +83,7 @@
         padding-right: 40px;
         padding-bottom: 40px;
         width: fit-content;
+        align-items: flex-start
     }
     div.about img{
         width: 300px;
@@ -95,9 +92,6 @@
     }
     div.about p{
         width: 550px;
-    }
-    div.about h2{
-        font-size: 24px;
     }
     
 }
@@ -139,7 +133,6 @@ div.about h2 a:hover{
 
 div.about h3{
     font-weight: bolder;
-    font-size: 20px;
     color: #354A77;
     margin-bottom: 5px;
 }

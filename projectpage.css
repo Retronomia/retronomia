@@ -4,15 +4,6 @@
         margin-top: 80px;
         width: 200px;
     } 
-    div.page h1{
-        font-size: 28px;
-    }
-    div.page h2{
-        font-size: 20px;
-    }
-    div.page p{
-        font-size: 14px;
-    }
 }
 
 /* Landscape phone to portrait tablet */
@@ -21,15 +12,6 @@
         margin-top: 40px;
         width: 450px;
     }  
-    div.page h1{
-        font-size: 30px;
-    }
-    div.page h2{
-        font-size: 24px;
-    }
-    div.page p{
-        font-size: 16px;
-    }
 }
 
 /* Portrait tablet to landscape and desktop */
@@ -38,15 +20,6 @@
         margin-top: 40px;
         width: 600px;
     } 
-    div.page h1{
-        font-size: 30px;
-    }
-    div.page h2{
-        font-size: 24px;
-    }
-    div.page p{
-        font-size: 16px;
-    }
 }
 
 /* Large desktop */
@@ -55,15 +28,6 @@
         margin-top: 40px;
         width: 1000px;
     }  
-    div.page h1{
-        font-size: 30px;
-    }
-    div.page h2{
-        font-size: 24px;
-    }
-    div.page p{
-        font-size: 16px;
-    }
 }
 
 
@@ -98,14 +62,12 @@ div img {
     
 }
 
-h4{
-    font-size: 13px;
-}
 .float-left{
     float:left;
 }
 .float-center{
-    float:center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .float-right{
     float:right;
@@ -144,25 +106,57 @@ h4{
     height: auto;
 }
 
-.code{
-    background-color: #1E1E1E;
-    font-family: 'Inconsolata', monospace;
+u{
+    text-decoration:none;
+    color: #01a1c1;
 }
-.db{
-    color: #568CA1;
+b{
+    font-weight: normal;
+    color: #ee8f00;
 }
-.b{
-    color: #7CDCF0;
+i{
+    font-style: normal;
+    color: rgb(44, 125, 44);
 }
-.y{
-    color: #D7983C;
+
+code{
+    display:flex;
+    flex-direction: column;
+    width:fit-content;
+    background-color: #FFFBFC;
+    border-style: solid;
+    border-color: #354A77;
+    border-width: 1px;
+    padding-right: 20px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius:10px;
+    padding-top:10px;
+    padding-bottom:10px;
 }
-.r{
-    color: #CE9178;
+code pre{
+    width:max-content;
+    order:1;
+    counter-increment:line;
 }
-.dg{
-    color: #6A8A35;
+code pre:nth-child(1)::before
+{
+    padding-top:10px;
 }
-.g{
-    color: #B5CEA8;
+code pre:nth-last-child(1)::before
+{
+    padding-bottom:10px;
+}
+code pre::before
+{
+    font-weight:lighter;
+    color:grey;
+    border-right: 1px solid grey;
+  content:counter(line);
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: 20px;
+  text-align: center;
 }

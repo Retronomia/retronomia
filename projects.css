@@ -3,14 +3,7 @@
     div.project {
         width: 350px;
     }
-    div.project h1{
-        font-size: 20px;
-    }
-    div.project h2{
-        font-size: 16px;
-    }
     div.project p{
-        font-size: 15px;
         width: 320px;
     }
     div.project div.section img {
@@ -25,14 +18,7 @@
     div.project {
         width: 500px;
     }
-    div.project h1{
-        font-size: 25px;
-    }
-    div.project h2{
-        font-size: 18px;
-    }
     div.project p{
-        font-size: 15px;
         width: 450px;
     }
     div.project div.section img {
@@ -47,14 +33,7 @@
     div.project {
         width: 600px;
     }
-    div.project h1{
-        font-size: 25px;
-    }
-    div.project h2{
-        font-size: 18px;
-    }
     div.project p{
-        font-size: 15px;
         width: 350px;
         margin-right: 50px;
     }
@@ -70,14 +49,7 @@
     div.project {
         width: 1000px;
     }
-    div.project h1{
-        font-size: 25px;
-    }
-    div.project h2{
-        font-size: 18px;
-    }
     div.project p{
-        font-size: 15px;
         width: 650px;
         margin-right: 50px;
     }
